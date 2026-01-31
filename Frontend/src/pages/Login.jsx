@@ -20,7 +20,7 @@ const Login = () => {
 
     axios
       .post(
-        "http://localhost:3000/api/auth/login",
+        "https://agentic-ai-chatgpt.onrender.com/api/auth/login",
         {
           email: form.email,
           password: form.password,
